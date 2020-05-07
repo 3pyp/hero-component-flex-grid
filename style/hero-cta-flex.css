@@ -1,0 +1,39 @@
+/* Hero with flex */
+.hero-cta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.hero-cta__image {
+  height: auto;
+  width: 100%;
+}
+.hero-cta__text-wrapper {
+  background-color: #fff;
+  padding: 2rem;
+}
+.hero-cta__button {
+  background-color: var(--red);
+  border: none;
+  border-radius: 7px;
+  color: var(--white);
+  cursor: pointer;
+  margin-top: 20px;
+  padding: 10px 40px;
+}
+.hero-cta__button:hover {
+  background-color: var(--dark-red);
+}
+@media (min-width: 768px) {
+  .hero-cta {
+    flex-wrap: nowrap;
+  }
+  .hero-cta__image-wrapper {
+    flex: 1 1 50% ;
+  }
+  .hero-cta__text-wrapper {
+    flex: 1 0 50% ;
+    margin-left: -35%;
+    padding: 4rem;
+  }
+}
