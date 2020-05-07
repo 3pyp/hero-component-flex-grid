@@ -33,18 +33,18 @@ h6 {
 html {
   box-sizing: border-box;
   font-size: 16px;
- }
- 
- *,
- *::before,
- *::after {
-  box-sizing: inherit;
- }
+}
 
- body {
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
   color: var(--black);
   font-family: "Roboto Mono", monospace;
- }
- img {
+}
+img {
   vertical-align: top;
- }
+}

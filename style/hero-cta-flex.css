@@ -29,10 +29,10 @@
     flex-wrap: nowrap;
   }
   .hero-cta__image-wrapper {
-    flex: 1 1 50% ;
+    flex: 1 1 50%;
   }
   .hero-cta__text-wrapper {
-    flex: 1 0 50% ;
+    flex: 1 0 50%;
     margin-left: -35%;
     padding: 4rem;
   }
